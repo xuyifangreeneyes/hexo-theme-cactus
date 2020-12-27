@@ -15,21 +15,21 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
   articles: /archives/
-  projects: projects_url
-
+  category: /categories/
+  tag: /tags/
+  about: /about/
+  search: /search/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: https://github.com/xuyifangreeneyes
+  twitter: https://twitter.com/YifanXu71277669
+  linkedin: https://www.linkedin.com/in/yifan-xu-10b19013a
+  mail: mailto:xuyifangreeneyes@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -62,7 +62,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2020
   end_year:
 
 ##############################################################################
@@ -81,7 +81,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/xiaoxu.png
   gravatar: false
   grayout: true
 
@@ -96,18 +96,18 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/xiaoxu.ico
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/xiaoxu.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/xiaoxu.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+highlight: atom-one-dark
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
